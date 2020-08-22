@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="salesforce.module" version="4">
+  <component name="ComponentSet">
+    <type2Names>
+      <SFMetaTypeNamesState type="CUSTOM_TAB" setAll="true" />
+      <SFMetaTypeNamesState type="INSTALLED_PACKAGE" setAll="true" />
+      <SFMetaTypeNamesState type="CUSTOM_METADATA" setAll="true" />
+      <SFMetaTypeNamesState type="LAYOUT" setAll="true" />
+      <SFMetaTypeNamesState type="STATIC_RESOURCE" setAll="true" />
+      <SFMetaTypeNamesState type="LIGHTNING_BUNDLE" setAll="true" />
+      <SFMetaTypeNamesState type="CUSTOM_LABELS" setAll="true" />
+      <SFMetaTypeNamesState type="APEX_COMPONENT" setAll="true" />
+      <SFMetaTypeNamesState type="LIGHTNING_WEB_COMPONENT" setAll="true" />
+      <SFMetaTypeNamesState type="EXTERNAL_DATA_SOURCE" setAll="true" />
+      <SFMetaTypeNamesState type="APEX_TRIGGER" setAll="true" />
+      <SFMetaTypeNamesState type="CUSTOM_OBJECT" setAll="true" />
+      <SFMetaTypeNamesState type="FLOW" setAll="true" />
+      <SFMetaTypeNamesState type="NETWORK" setAll="true" />
+      <SFMetaTypeNamesState type="APEX_CLASS" setAll="true" />
+      <SFMetaTypeNamesState type="APEX_PAGE" setAll="true" />
+      <SFMetaTypeNamesState type="WORKFLOW" setAll="true" />
+      <SFMetaTypeNamesState type="CUSTOM_APPLICATION" setAll="true" />
+    </type2Names>
+    <components>
+      <SFMetaComponentState type="ApexClass" chosen="true" isMajor="true" />
+      <SFMetaComponentState type="ApexComponent" chosen="true" isMajor="true" />
+      <SFMetaComponentState type="ApexPage" chosen="true" isMajor="true" />
+      <SFMetaComponentState type="ApexTrigger" chosen="true" isMajor="true" />
+      <SFMetaComponentState type="AuraDefinitionBundle" chosen="true" isMajor="true" />
+      <SFMetaComponentState type="CustomApplication" chosen="true" isMajor="true" />
+      <SFMetaComponentState type="CustomLabels" chosen="true" isMajor="true" />
+      <SFMetaComponentState type="CustomObject" chosen="true" isMajor="true" />
+      <SFMetaComponentState type="CustomTab" chosen="true" isMajor="true" />
+      <SFMetaComponentState type="ExternalDataSource" chosen="true" isMajor="true" />
+      <SFMetaComponentState type="Flow" chosen="true" isMajor="true" />
+      <SFMetaComponentState type="InstalledPackage" chosen="true" isMajor="true" />
+      <SFMetaComponentState type="Layout" chosen="true" isMajor="true" />
+      <SFMetaComponentState type="LightningComponentBundle" chosen="true" isMajor="true" />
+      <SFMetaComponentState type="Network" chosen="true" isMajor="true" />
+      <SFMetaComponentState type="StaticResource" chosen="true" isMajor="true" />
+      <SFMetaComponentState type="Workflow" chosen="true" isMajor="true" />
+      <SFMetaComponentState type="ApexTestSuite" />
+      <SFMetaComponentState type="ApprovalProcess" />
+      <SFMetaComponentState type="AssignmentRules" />
+      <SFMetaComponentState type="CallCenter" />
+      <SFMetaComponentState type="Community" />
+      <SFMetaComponentState type="CommunityTemplateDefinition" />
+      <SFMetaComponentState type="CommunityThemeDefinition" />
+      <SFMetaComponentState type="ConnectedApp" />
+      <SFMetaComponentState type="CustomMetadata" chosen="true" />
+      <SFMetaComponentState type="CustomObjectTranslation" />
+      <SFMetaComponentState type="CustomPermission" />
+      <SFMetaComponentState type="CustomSite" />
+      <SFMetaComponentState type="Document" />
+      <SFMetaComponentState type="EmailTemplate" />
+      <SFMetaComponentState type="FlexiPage" />
+      <SFMetaComponentState type="FlowDefinition" />
+      <SFMetaComponentState type="GlobalValueSet" />
+      <SFMetaComponentState type="Group" />
+      <SFMetaComponentState type="HomePageComponent" />
+      <SFMetaComponentState type="HomePageLayout" />
+      <SFMetaComponentState type="PermissionSet" />
+      <SFMetaComponentState type="PlatformCachePartition" />
+      <SFMetaComponentState type="Portal" />
+      <SFMetaComponentState type="PostTemplate" />
+      <SFMetaComponentState type="Profile" />
+      <SFMetaComponentState type="Queue" />
+      <SFMetaComponentState type="QuickAction" />
+      <SFMetaComponentState type="Report" />
+      <SFMetaComponentState type="ReportType" />
+      <SFMetaComponentState type="Role" />
+      <SFMetaComponentState type="Settings" />
+      <SFMetaComponentState type="SharingRules" />
+      <SFMetaComponentState type="SharingSet" />
+      <SFMetaComponentState type="SiteDotCom" />
+      <SFMetaComponentState type="StandardValueSet" />
+      <SFMetaComponentState type="Translations" />
+    </components>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/built-in-stubs.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/lib/built-in-stubs.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

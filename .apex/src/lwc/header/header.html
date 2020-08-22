@@ -1,0 +1,114 @@
+<template>
+    <lightning-card>
+        <template if:true={accountToDisplay}>
+            <div class="slds-m-around_medium">
+                <div class="slds-grid slds-gutters">
+                    <div class="slds-col slds-size_1-of-4">
+                        <div class="slds-text-heading_medium slds-align_absolute-center">
+                            <p>{accountToDisplay.Name}</p>
+                        </div>
+                    </div>
+                    <div class="slds-col slds-size_1-of-4">
+                        <div class="slds-text-heading_medium slds-align_absolute-center">
+                            <p>{accountToDisplay.AccountNumber}</p>
+                        </div>
+                    </div>
+                    <div class="slds-col slds-size_1-of-2">
+                        <div class="slds-float_right">
+                            <template if:true={isManager}>
+                                <lightning-button style="margin-right: 1em;" variant="brand" label="Create product" onclick={handleCreateProductClick}></lightning-button>
+                            </template>
+                            <lightning-button variant="brand" label="Cart" onclick={handleCartClick}></lightning-button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </template>
+        <template if:true={openCartModal}>
+            <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+                <div class="slds-modal__container">
+                    <header class="slds-modal__header">
+                        <h2 id="modal-heading-01" class="slds-modal__title slds-hyphenate">Your cart</h2>
+                    </header>
+                    <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+                        <table class="slds-table slds-table_cell-buffer slds-table_bordered">
+                            <thead>
+                                <tr class="slds-line-height_reset">
+                                    <th class="" scope="col">
+                                        <div class="slds-truncate" title="Name">Name</div>
+                                    </th>
+                                    <th class="" scope="col">
+                                        <div class="slds-truncate" title="Price">Price</div>
+                                    </th>
+                                    <th class="" scope="col">
+                                        <div class="slds-truncate" title="Quantity">Quantity</div>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <template for:each={productsInCart} for:item="prod">
+                                    <template if:true={prod.Id}>
+                                        <tr class="slds-hint-parent" key={prod.Id}>
+                                            <td data-label="Name">
+                                                <div class="slds-truncate" title="Name">{prod.Name}</div>
+                                            </td>
+                                            <td data-label="Price">
+                                                <div class="slds-truncate" title="Price">{prod.Price}$</div>
+                                            </td>
+                                            <td data-label="Quantity">
+                                                <div class="slds-truncate" title="Quantity">
+                                                    {prod.Quantity}
+                                                    <lightning-button-icon data-id={prod.Id} icon-name="utility:add"  alternative-text="Add item" title="Add item" onclick={incQuantity}></lightning-button-icon>
+                                                    <lightning-button-icon data-id={prod.Id} icon-name="utility:dash"  alternative-text="Remove one item" title="Remove one item" onclick={decQuantity}></lightning-button-icon>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </template>
+                                </template>
+                            </tbody>
+                        </table>
+                    </div>
+                    <footer class="slds-modal__footer">
+                        <button class="slds-button slds-button_brand" onclick={handleCheckout}>Check out</button>
+                        <button class="slds-button slds-button_text-destructive" onclick={handleCartClose}>Close</button>
+                    </footer>
+                </div>
+            </section>
+            <div class="slds-backdrop slds-backdrop_open"></div>
+        </template>
+        <template if:true={openCreateProductModal}>
+            <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+                <div class="slds-modal__container">
+                    <header class="slds-modal__header">
+                        <h2 id="modal-heading-02" class="slds-modal__title slds-hyphenate">New product</h2>
+                    </header>
+                    <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-2">
+                        <lightning-input type="text" label="Product Name" placeholder="type here..." onchange={handleNameChange} required></lightning-input>
+                        <lightning-textarea name="inputDesc" label="Description" placeholder="type here..." onchange={handleDescChange}></lightning-textarea>
+                        <lightning-combobox
+                                name="type"
+                                label="Type"
+                                value={selectedTypeValue}
+                                placeholder="Select Type"
+                                options={optionsType}
+                                onchange={handleChangeType} ></lightning-combobox>
+                        <lightning-combobox
+                                name="family"
+                                label="Family"
+                                value={selectedFamilyValue}
+                                placeholder="Select Family"
+                                options={optionsFamily}
+                                onchange={handleChangeFamily} ></lightning-combobox>
+                        <lightning-input type="url" label="Image" name="inputImage" placeholder="type here..." onchange={handleImageChange}></lightning-input>
+                        <lightning-input type="number" name="inputPrice" label="Price" placeholder="type here..." onchange={handlePriceChange}></lightning-input>
+                        <lightning-button label="Submit" variant="brand" onclick={createProduct}></lightning-button>
+                    </div>
+                    <footer class="slds-modal__footer">
+                        <button class="slds-button slds-button_text-destructive" onclick={handleCreateProductClose}>Close</button>
+                    </footer>
+                </div>
+            </section>
+            <div class="slds-backdrop slds-backdrop_open"></div>
+        </template>
+    </lightning-card>
+</template>

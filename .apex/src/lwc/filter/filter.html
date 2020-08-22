@@ -1,0 +1,27 @@
+<template>
+    <lightning-card title="Filter" icon-name="action:filter">
+        <div class="slds-m-around_medium">
+            <template if:true={typeValues.data}>
+                <div class="slds-text-heading_small slds-float_left slds-p-bottom_x-small">
+                    <p>Type:</p>
+                </div>
+                <select class="slds-select" id="selectType" multiple>
+                    <template for:each={typeValues.data} for:item="type">
+                        <option key={type.Id} value={type.Id}>{type.Value}</option>
+                    </template>
+                </select>
+            </template>
+            <template if:true={familyValues.data}>
+                <div class="slds-text-heading_small slds-float_left slds-p-bottom_x-small slds-p-top_small">
+                    <p>Family:</p>
+                </div>
+                <select class="slds-select" id="selectFamily" multiple>
+                    <template for:each={familyValues.data} for:item="family">
+                        <option key={family.Id} value={family.Id}>{family.Value}</option>
+                    </template>
+                </select>
+            </template>
+            <button class="slds-button slds-button_outline-brand slds-m-top--small" onclick={applyFilters}>Apply</button>
+        </div>
+    </lightning-card>
+</template>

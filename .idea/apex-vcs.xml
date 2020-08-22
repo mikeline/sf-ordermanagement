@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ApexVcsIndex">
+    <index-record>
+      <option name="path" value="/src/lwc/apexWireMethodToProperty/apexWireMethodToProperty.js-meta.xml" />
+      <option name="type" value="DELETED" />
+    </index-record>
+    <index-record>
+      <option name="path" value="/src/objects/DelegatedAccount.object" />
+      <option name="type" value="NEW" />
+    </index-record>
+    <index-record>
+      <option name="path" value="/src/objects/ProductCategoryProduct.object" />
+      <option name="type" value="NEW" />
+    </index-record>
+    <index-record>
+      <option name="path" value="/src/lwc/contact/contact.js-meta.xml" />
+      <option name="type" value="DELETED" />
+    </index-record>
+    <index-record>
+      <option name="path" value="/src/lwc/contact/contact.html" />
+      <option name="type" value="DELETED" />
+    </index-record>
+    <index-record>
+      <option name="path" value="/src/objects/CommerceEntitlementPolicy.object" />
+      <option name="type" value="NEW" />
+    </index-record>
+    <index-record>
+      <option name="path" value="/src/objects/ElectronicMediaGroup.object" />
+      <option name="type" value="NEW" />
+    </index-record>
+    <index-record>
+      <option name="path" value="/src/objects/CommerceEntitlementBuyerGroup.object" />
+      <option name="type" value="NEW" />
+    </index-record>
+    <index-record>
+      <option name="path" value="/src/objects/ProductCatalog.object" />
+      <option name="type" value="NEW" />
+    </index-record>
+    <index-record>
+      <option name="path" value="/src/lwc/apexWireMethodToProperty/apexWireMethodToProperty.js" />
+      <option name="type" value="DELETED" />
+    </index-record>
+    <index-record>
+      <option name="path" value="/src/classes/ContactController.cls-meta.xml" />
+      <option name="type" value="DELETED" />
+    </index-record>
+    <index-record>
+      <option name="path" value="/src/objects/ProductCategory.object" />
+      <option name="type" value="NEW" />
+    </index-record>
+    <index-record>
+      <option name="path" value="/src/objects/BuyerGroupMember.object" />
+      <option name="type" value="NEW" />
+    </index-record>
+    <index-record>
+      <option name="path" value="/src/lwc/apexWireMethodToProperty/apexWireMethodToProperty.html" />
+      <option name="type" value="DELETED" />
+    </index-record>
+    <index-record>
+      <option name="path" value="/src/objects/CommerceEntitlementProduct.object" />
+      <option name="type" value="NEW" />
+    </index-record>
+    <index-record>
+      <option name="path" value="/src/objects/BuyerAccount.object" />
+      <option name="type" value="NEW" />
+    </index-record>
+    <index-record>
+      <option name="path" value="/src/objects/ProductCategoryMedia.object" />
+      <option name="type" value="NEW" />
+    </index-record>
+    <index-record>
+      <option name="path" value="/src/objects/BuyerGroup.object" />
+      <option name="type" value="NEW" />
+    </index-record>
+    <index-record>
+      <option name="path" value="/src/classes/ContactController.cls" />
+      <option name="type" value="DELETED" />
+    </index-record>
+    <index-record>
+      <option name="path" value="/src/lwc/contact/contact.js" />
+      <option name="type" value="DELETED" />
+    </index-record>
+    <index-record>
+      <option name="path" value="/src/objects/BuyerGroupPricebook.object" />
+      <option name="type" value="NEW" />
+    </index-record>
+    <index-record>
+      <option name="path" value="/src/objects/ElectronicMediaUse.object" />
+      <option name="type" value="NEW" />
+    </index-record>
+    <index-record>
+      <option name="path" value="/src/objects/ProductMedia.object" />
+      <option name="type" value="NEW" />
+    </index-record>
+  </component>
+</project>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="46403448-2736-4ff5-804c-6cfb40a0fb56" name="Default Changelist" comment="Deploy with ApexVCS">
+      <change afterPath="$PROJECT_DIR$/src/objects/BuyerAccount.object" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objects/BuyerGroup.object" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objects/BuyerGroupMember.object" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objects/BuyerGroupPricebook.object" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objects/CommerceEntitlementBuyerGroup.object" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objects/CommerceEntitlementPolicy.object" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objects/CommerceEntitlementProduct.object" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objects/DelegatedAccount.object" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objects/ElectronicMediaGroup.object" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objects/ElectronicMediaUse.object" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objects/ProductCatalog.object" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objects/ProductCategory.object" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objects/ProductCategoryMedia.object" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objects/ProductCategoryProduct.object" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objects/ProductMedia.object" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/ContactController.cls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lwc/apexWireMethodToProperty/apexWireMethodToProperty.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lwc/apexWireMethodToProperty/apexWireMethodToProperty.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lwc/apexWireMethodToProperty/apexWireMethodToProperty.js-meta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lwc/contact/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lwc/contact/contact.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lwc/contact/contact.js-meta.xml" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Lightning" />
+        <option value="Lightning.cmp-meta" />
+        <option value="LightningWebComponent" />
+        <option value="LightningWebComponent.js-meta" />
+        <option value="CSS File" />
+        <option value="Tag Library Descriptor" />
+        <option value="ApexTrigger" />
+        <option value="ApexTrigger.trigger-meta" />
+        <option value="ApexClass" />
+        <option value="ApexClass.cls-meta" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1g4coWelcKRZoJQPwdbswzhJsKj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="LastSelectedSalesforceComponentKey" value="ApexClass" />
+    <property name="UseStandardLocationKey" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Apex Test.OrderControllerTest">
+    <configuration name="AccountControllerTest" type="ApexTest" factoryName="Apex Test" temporary="true" nameIsGenerated="true">
+      <option name="testFilePath" value="$PROJECT_DIR$/src/classes/AccountControllerTest.cls" />
+      <method v="2">
+        <option name="SFDeployBeforeRunTaskProvider" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderControllerTest" type="ApexTest" factoryName="Apex Test" temporary="true" nameIsGenerated="true">
+      <option name="testFilePath" value="$PROJECT_DIR$/src/classes/OrderControllerTest.cls" />
+      <method v="2">
+        <option name="SFDeployBeforeRunTaskProvider" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PicklistControllerTest" type="ApexTest" factoryName="Apex Test" temporary="true" nameIsGenerated="true">
+      <option name="testFilePath" value="$PROJECT_DIR$/src/classes/PicklistControllerTest.cls" />
+      <method v="2">
+        <option name="SFDeployBeforeRunTaskProvider" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductControllerTest" type="ApexTest" factoryName="Apex Test" temporary="true" nameIsGenerated="true">
+      <option name="testFilePath" value="$PROJECT_DIR$/src/classes/ProductControllerTest.cls" />
+      <method v="2">
+        <option name="SFDeployBeforeRunTaskProvider" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserInfoControllerTest" type="ApexTest" factoryName="Apex Test" temporary="true" nameIsGenerated="true">
+      <option name="testFilePath" value="$PROJECT_DIR$/src/classes/UserInfoControllerTest.cls" />
+      <method v="2">
+        <option name="SFDeployBeforeRunTaskProvider" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Apex Test.OrderControllerTest" />
+        <item itemvalue="Apex Test.UserInfoControllerTest" />
+        <item itemvalue="Apex Test.ProductControllerTest" />
+        <item itemvalue="Apex Test.AccountControllerTest" />
+        <item itemvalue="Apex Test.PicklistControllerTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SFUnavailableTypes">
+    <types>
+      <type value="CommunityThemeDefinition" />
+      <type value="Translations" />
+      <type value="Portal" />
+      <type value="Network" />
+      <type value="CommunityTemplateDefinition" />
+    </types>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="46403448-2736-4ff5-804c-6cfb40a0fb56" name="Default Changelist" comment="" />
+      <created>1597377480952</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597377480952</updated>
+      <workItem from="1597377485157" duration="9351000" />
+      <workItem from="1597465569224" duration="10060000" />
+      <workItem from="1597548715467" duration="7585000" />
+      <workItem from="1597646459432" duration="12170000" />
+      <workItem from="1597728518725" duration="17631000" />
+      <workItem from="1597804771592" duration="18196000" />
+      <workItem from="1597901940606" duration="21723000" />
+      <workItem from="1598004968110" duration="11925000" />
+      <workItem from="1598063869256" duration="24462000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
